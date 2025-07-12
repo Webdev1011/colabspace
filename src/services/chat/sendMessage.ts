@@ -1,5 +1,5 @@
 import { addDoc, collection, serverTimestamp } from "firebase/firestore";
-import { services } from "../firebase/firebaseConfig";
+import { services } from "../../firebase/firebaseConfig";
 
 type MessageType = "text" | "image" | "video" | "audio" | "file";
 
